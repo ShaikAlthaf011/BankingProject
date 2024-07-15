@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-15T11:03:49 IST" name="Suite" finished-at="2024-07-15T11:05:28 IST" duration-ms="99397">
+    <groups>
+    </groups>
+    <test started-at="2024-07-15T11:03:49 IST" name="Test" finished-at="2024-07-15T11:05:28 IST" duration-ms="99397">
+      <class name="Testscript.VerifyLoginpage">
+        <test-method is-config="true" signature="Reoprts()[pri:0, instance:Testscript.VerifyLoginpage@65fb9ffc]" started-at="2024-07-15T11:03:48 IST" name="Reoprts" finished-at="2024-07-15T11:03:49 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reoprts -->
+        <test-method is-config="true" signature="Openbrowser(java.lang.reflect.Method)[pri:0, instance:Testscript.VerifyLoginpage@65fb9ffc]" started-at="2024-07-15T11:03:49 IST" name="Openbrowser" finished-at="2024-07-15T11:03:51 IST" duration-ms="2471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testscript.VerifyLoginpage.Navigateurl() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method signature="Navigateurl()[pri:0, instance:Testscript.VerifyLoginpage@65fb9ffc]" started-at="2024-07-15T11:03:51 IST" name="Navigateurl" finished-at="2024-07-15T11:04:00 IST" duration-ms="9152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigateurl -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testscript.VerifyLoginpage@65fb9ffc]" started-at="2024-07-15T11:04:00 IST" name="teardown" finished-at="2024-07-15T11:04:01 IST" duration-ms="1132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Navigateurl status=SUCCESS method=VerifyLoginpage.Navigateurl()[pri:0, instance:Testscript.VerifyLoginpage@65fb9ffc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="close_suite()[pri:0, instance:Testscript.VerifyLoginpage@65fb9ffc]" started-at="2024-07-15T11:05:28 IST" name="close_suite" finished-at="2024-07-15T11:05:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_suite -->
+      </class> <!-- Testscript.VerifyLoginpage -->
+      <class name="Testscript.VerifyNewAccount">
+        <test-method is-config="true" signature="Openbrowser(java.lang.reflect.Method)[pri:0, instance:Testscript.VerifyNewAccount@639c2c1d]" started-at="2024-07-15T11:04:01 IST" name="Openbrowser" finished-at="2024-07-15T11:04:03 IST" duration-ms="1782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testscript.VerifyNewAccount.VerifyNewAccount() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method signature="VerifyNewAccount()[pri:0, instance:Testscript.VerifyNewAccount@639c2c1d]" started-at="2024-07-15T11:04:03 IST" name="VerifyNewAccount" finished-at="2024-07-15T11:04:21 IST" duration-ms="17842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewAccount -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testscript.VerifyNewAccount@639c2c1d]" started-at="2024-07-15T11:04:21 IST" name="teardown" finished-at="2024-07-15T11:04:22 IST" duration-ms="604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyNewAccount status=SUCCESS method=VerifyNewAccount.VerifyNewAccount()[pri:0, instance:Testscript.VerifyNewAccount@639c2c1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testscript.VerifyNewAccount -->
+      <class name="Testscript.VerifyDeposite">
+        <test-method is-config="true" signature="Openbrowser(java.lang.reflect.Method)[pri:0, instance:Testscript.VerifyDeposite@443118b0]" started-at="2024-07-15T11:05:01 IST" name="Openbrowser" finished-at="2024-07-15T11:05:03 IST" duration-ms="1919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testscript.VerifyDeposite.VerifyDeposite() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method signature="VerifyDeposite()[pri:0, instance:Testscript.VerifyDeposite@443118b0]" started-at="2024-07-15T11:05:03 IST" name="VerifyDeposite" finished-at="2024-07-15T11:05:28 IST" duration-ms="24615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeposite -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testscript.VerifyDeposite@443118b0]" started-at="2024-07-15T11:05:28 IST" name="teardown" finished-at="2024-07-15T11:05:28 IST" duration-ms="537" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDeposite status=SUCCESS method=VerifyDeposite.VerifyDeposite()[pri:0, instance:Testscript.VerifyDeposite@443118b0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testscript.VerifyDeposite -->
+      <class name="Testscript.VerifyNewcustomer">
+        <test-method is-config="true" signature="Openbrowser(java.lang.reflect.Method)[pri:0, instance:Testscript.VerifyNewcustomer@5fe94a96]" started-at="2024-07-15T11:04:22 IST" name="Openbrowser" finished-at="2024-07-15T11:04:23 IST" duration-ms="1763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testscript.VerifyNewcustomer.VerifyNewcustomer() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method signature="VerifyNewcustomer()[pri:0, instance:Testscript.VerifyNewcustomer@5fe94a96]" started-at="2024-07-15T11:04:23 IST" name="VerifyNewcustomer" finished-at="2024-07-15T11:05:00 IST" duration-ms="36891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNewcustomer -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:Testscript.VerifyNewcustomer@5fe94a96]" started-at="2024-07-15T11:05:00 IST" name="teardown" finished-at="2024-07-15T11:05:01 IST" duration-ms="620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyNewcustomer status=SUCCESS method=VerifyNewcustomer.VerifyNewcustomer()[pri:0, instance:Testscript.VerifyNewcustomer@5fe94a96] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testscript.VerifyNewcustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
